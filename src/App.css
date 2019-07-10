@@ -48,7 +48,7 @@
 .PageSwitcher {
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 10%;
+  margin-bottom: 40px;
 }
 
 .PageSwitcher__Item {
@@ -112,7 +112,7 @@
 
 .FormField {
   margin-bottom: 40px;
-  margin-left: 40px;
+  margin-left: 10%;
   }
 
 .FormField__Label {
@@ -152,7 +152,7 @@
   outline: none;
   border-radius: 25px;
   padding: 15px 70px;
-  font-size: .8em;
+  font-size: 15px;
   font-weight: 500;
 }
 
@@ -186,8 +186,16 @@
 .logo{
   background-image: url("./logo.png");
   width :200px;
-  height :200px;
+  height :70px;
   background-repeat: no-repeat;
   background-size: 100%;
   }
 
+.judul{
+  color: black;
+  font-size: 40px;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+  margin-left: 10%;
+}
