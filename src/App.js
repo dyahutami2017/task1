@@ -7,12 +7,16 @@ import form from './view/form.jsx';
 function App() {
   return (
     <div className="App">
-      <div className="App__Form">
+      
+  <div className="App__Form">
+      
+                
         <div className="PageSwitcher">
-          <div className="logo"></div>
-          <div className="circle"></div>
-        </div>
+        <div className="circle"></div> 
+        <div className="logo"></div>
         
+        </div>
+         
         <span className="judul">Fill the Form!!</span>
  
          <form>   
@@ -24,6 +28,8 @@ function App() {
             <div className="FormField">
               <label className="FormField__Label" htmlFor="email">Email Address</label>
               <input type="text" id="email" className="FormField__Input" placeholder="Email"/>
+            
+              
             </div>
           
 
@@ -31,6 +37,7 @@ function App() {
             <div className="FormField">
               <label className="FormField__Label" htmlFor="phone">Phone Number</label> 
               <input type="text" id="phone" className="FormField__Input" placeholder="No Telepon"/>
+              
             </div>
          
 
@@ -43,11 +50,15 @@ function App() {
             <div className="FormField">
                   <button className="FormField__Button mr-20">Send  </button> 
               </div>
-
+              
           </form>
+          
+          <div className="circle1"></div>
+         
         </div>
-    
+        
     </div>
+    
   );
 }
 
