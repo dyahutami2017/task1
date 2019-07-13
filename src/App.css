@@ -116,6 +116,7 @@
   }
 
 .FormField__Label {
+  visibility: hidden;
   display: block;
   text-transform: uppercase;
   font-size: .9em;
