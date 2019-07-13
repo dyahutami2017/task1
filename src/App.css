@@ -200,3 +200,10 @@
   margin-bottom: 40px;
   margin-left: 10%;
 }
+#circle {
+  width: 100px;
+  height: 100px;
+  background: red;
+  border-radius: 50%;
+  display: block;
+}
