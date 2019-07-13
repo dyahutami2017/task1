@@ -18,26 +18,26 @@ function App() {
          <form>   
             <div className="FormField">
               <label className="FormField__Label" htmlFor="name">Full Name</label>
-              <input type="text" id="name" className="FormField__Input" placeholder="Enter your full name"/>
+              <input type="text" id="name" className="FormField__Input" placeholder="Nama Lengkap"/>
             </div>
          
             <div className="FormField">
               <label className="FormField__Label" htmlFor="email">Email Address</label>
-              <input type="text" id="email" className="FormField__Input" placeholder="Enter your email address"/>
+              <input type="text" id="email" className="FormField__Input" placeholder="Email"/>
             </div>
           
 
           
             <div className="FormField">
-              <label className="FormField__Label" htmlFor="phone">Phone Number</label>
-              <input type="text" id="phone" className="FormField__Input" placeholder="Enter your phone number"/>
+              <label className="FormField__Label" htmlFor="phone">Phone Number</label> 
+              <input type="text" id="phone" className="FormField__Input" placeholder="No Telepon"/>
             </div>
          
 
          
             <div className="FormField">
               <label className="FormField__Label" htmlFor="message">Message</label>
-              <input type="text" id="message" className="FormField__Input" placeholder="your message"/>
+              <input type="text" id="message" className="FormField__Input" placeholder="Pesan"/>
             </div>
 
             <div className="FormField">
