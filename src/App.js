@@ -10,7 +10,7 @@ function App() {
       <div className="App__Form">
         <div className="PageSwitcher">
           <div className="logo"></div>
-          <span className="circle"></span>
+          <div className="circle"></div>
         </div>
         
         <span className="judul">Fill the Form!!</span>
