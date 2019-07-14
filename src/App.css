@@ -222,6 +222,7 @@
   margin-left: auto;
   margin-right:-100px;
   margin-bottom:-300px;
+  position: relative;
 }
 .row{
   border-left: 1px black solid;
@@ -230,8 +231,11 @@
   display: inline-block;
 }
 
-.gambar{
-  background-image:url("./undraw_freelancer_b0my.png");
-  margin-left:auto;
-  display: block;
+img{
+  position: relative; 
+  margin-left: 60%;
+  /* /transform: scale(0.2) */
+  height: 40%;
+  width: 40%
 }
+
