@@ -1,3 +1,4 @@
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
@@ -30,24 +31,25 @@
 .App {
   height: 100vh;
   display: flex;
-  color: white;
+  
+  
 }
 
 .App__Aside {
   width: 50%;
-  background-color: #66DAC7;
+  background-color:yellow;
+  
 }
 
 .App__Form {
-  width: 100%;
-  background-color: white;
+  width:100%;
   padding: 25px 40px;
   overflow: auto;
 }
 
 .PageSwitcher {
   display: flex;
-  justify-content: flex-end;
+  
   margin-bottom: 40px;
 }
 
@@ -113,6 +115,12 @@
 .FormField {
   margin-bottom: 20px;
   margin-left: 10%; 
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10%;
+  margin-top: 20px;
+  
   }
 
 .FormField__Label {
@@ -124,22 +132,22 @@
 } 
 
 #message{
-  margin-top: 200px;
+  margin-top: 50px;
+  
 }
 
 .FormField__Input {
-  width: 50%;
+  width: 30%;
   background-color: transparent;
   border: none;
   color:black;
   outline: none;
   border-bottom: 1px solid #445366;
-  font-size: 2em;
+  font-size: 1em;
   font-weight: 10px;
   padding-bottom: 10px;
   margin-top: 10px;
   
-
 }
 
 .FormField__Input::placeholder {
@@ -155,6 +163,9 @@
   padding: 15px 70px;
   font-size: 15px;
   font-weight: 500;
+  margin-top: 20px;
+  float: right;
+  margin-bottom: 10px;
 }
 
 .FormField__Link {
@@ -190,13 +201,13 @@
   height :70px;
   background-repeat: no-repeat;
   background-size: 100%;
+  margin-left: auto;
   }
 
 .judul{
   color: black;
   font-size: 40px;
-  display: flex;
-  justify-content: flex-start;
+  
   margin-bottom: 40px;
   margin-left: 10%;
 }
@@ -206,4 +217,54 @@
   height: 100px;
   background: red;
   border-radius: 50%
+
+}
+.circle {
+  width: 300px;
+  height: 180px;
+  background: rgb(238, 227, 81);
+  border-radius: 50%;
+  margin-left: -60px;
+  margin-top: -70px
+  
+}
+.circle1{
+  width: 180px;
+  height: 200px;
+  background: rgb(0, 195, 255);
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right:-100px;
+  margin-bottom:-300px;
+  position: relative;
+}
+.row{
+  border-left: 1px black solid;
+	height: 170px;
+  width: 0px;
+  display: inline-block;
+}
+
+img{
+  /* /transform: scale(0.2) */
+  height: 40%;
+  width: 40%;
+  float: right;
+  
+}
+
+#wave {
+  position: absolute;
+ width: 70px;
+height: 600px;
+  background: #e0efe3;
+}
+
+/* form{
+  float: right;
+  
+} */
+
+.FormField__Label .FormField__Input{
+  float: right;
 }
